@@ -19,9 +19,9 @@ const DrawControls = () => {
       draw: {
         polyline: true, // Enable line drawing
         polygon: true, // Enable polygon drawing
-        rectangle: false,
-        circle: false,
-        marker: false,
+        rectangle: true,
+        circle: true,
+        marker: true,
       },
     });
 
