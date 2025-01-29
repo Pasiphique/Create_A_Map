@@ -29,6 +29,9 @@ const App = () => {
             <li>
               <Link to="/timeline" className="navbar-link">Pittsburgh Timeline</Link>
             </li>
+            <li>
+              <Link to='facts' className='navbar-link'>Fun Facts</Link>
+            </li>
           </ul>
           <div className="navbar-toggle"  onClick={toggleMenu}>
             <span className="bar"></span>
@@ -42,6 +45,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/map" element={<Map />} />
           <Route path="/timeline" element={<PittsburghTimeline />} />
+          <Route path='/facts' element={<FunFacts />} />
         </Routes>
      </div>
     )

@@ -3,6 +3,7 @@ import { useMap } from "react-leaflet";
 import L from "leaflet";
 import "leaflet-draw/dist/leaflet.draw.css";
 import "leaflet-draw";
+import '../styles/App.css'
 const DrawControls = () => {
   const map = useMap();
 

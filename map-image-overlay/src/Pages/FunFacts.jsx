@@ -34,6 +34,7 @@ const FunFacts = () => {
             fontSize: '1.1em',
             margin: '10px',
             textAlign: 'center',
+            border:'2px solid gold'
           }}
         >
           {fact.description}

@@ -2,7 +2,7 @@ import { useMap } from "react-leaflet"; // Import the useMap hook
 import { useEffect } from "react";
 import "leaflet-control-geocoder/dist/Control.Geocoder.css"; // Required CSS
 import LControlGeocoder from "leaflet-control-geocoder"; // Import geocoder
-
+import '../styles/App.css'
 const MapSearchControl = () => {
     const map = useMap(); // Get the map instance
     

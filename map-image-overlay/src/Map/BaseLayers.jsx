@@ -2,7 +2,7 @@
 import {  TileLayer, LayersControl, Marker, Popup, Polygon } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import "leaflet-control-geocoder/dist/Control.Geocoder.css"; // Required CSS
-
+import '../styles/App.css'
 const BaseLayers = () =>{
      const markerPosition = [40.4406, -79.9959]; // Pittsburgh
       const polygonPositions = [
