@@ -1,0 +1,13 @@
+Start Page: A welcoming screen with an introduction to Pittsburgh's history and the importance of the landmarks featured on the map.
+Map with Markers: Users will see the city of Pittsburgh displayed on the map with markers for historical sites, parks, museums, and rivers.
+Click on Markers: When a user clicks on a marker, they’ll see:
+A description of the place.
+A timeline of events.
+Fun facts or historical trivia.
+Optional: Audio clips or images for a more interactive experience.
+Routing Feature: Allow users to create their own routes for walking tours or suggested routes highlighting certain historical periods or themes (e.g., Pittsburgh’s industrial revolution route).
+
+
+
+1. Need to create simple navbar and associated routes
+2. Need to create a fun facts or historical trivia page
