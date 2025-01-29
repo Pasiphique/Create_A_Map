@@ -1,12 +1,12 @@
 
 import React from "react";
 import { GeoJSON } from "react-leaflet";
-import neighborhoodsData from './assets/neighborhoods_.json'
+import neighborhoodsData from '../assets/neighborhoods_.json'
 
 const NeighborhoodsLayer = () => {
 
   const geoJsonStyle = {
-    color: "#ff7800",
+    color: "black",
     weight: 2,
     opacity: 1,
     fillColor: 'grey',

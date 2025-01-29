@@ -2,7 +2,7 @@
 
 
 import React, { useEffect, useState } from 'react';
-import funFactsData from './assets/funFacts.json' // Import the JSON file
+import funFactsData from '../assets/funFacts.json' // Import the JSON file
 
 const FunFacts = () => {
   const [facts, setFacts] = useState([]);
